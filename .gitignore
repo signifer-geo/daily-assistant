@@ -16,6 +16,9 @@ venv/
 env/
 
 # Credentials and sensitive data
-config.py  # IMPORTANT: Keep your actual config file out of version control
-token.pickle
-*.log #logs should not be commited
+config.py  
+# IMPORTANT: Keep your actual config file out of version control
+token*.pickle
+*.log 
+#logs should not be commited
+client_secret*.json
