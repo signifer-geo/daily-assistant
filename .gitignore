@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environments
+.env
+venv/
+env/
+
+# Credentials and sensitive data
+config.py  # IMPORTANT: Keep your actual config file out of version control
+token.pickle
+*.log #logs should not be commited
